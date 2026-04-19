@@ -2,9 +2,9 @@
     font-family:sans-serif;
     font-size: 14px;
     padding: 14px;
-    color:#ffffff;
-    background: rgb(rgb(25, 25, 26));
-    box-shadow: 0 0 10px rgba(rgb(106, 95, 95), rgb(141, 153, 141), rgb(100, 100, 126), alpha);
+    color:#191313;
+    background: rgb(187, 187, 212);
+    box-shadow: 0 0 10px rgb(106, 162, 215);
     border-radius : 6px;
-    border-top: 6px rgb(rgb(7, 141, 236));
+    border-top: 15px rgb(139, 192, 241) solid;
 }
