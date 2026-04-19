@@ -1,6 +1,20 @@
 .pagetop{
-    
+border-radius: 10px;
+background-color: #f4f3ea;
+border-top: #191313 solid;
+border-left: #191313 solid;
+border-right: #191313 solid;
+border-bottom: #191313 solid;
 }
+.profilepic{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+background-image: url('Profile_Pic.jpeg');
+background-size: cover;
+background-position: center;
+}
+
 .boxstyle {
     font-family:sans-serif;
     font-size: 14px;
