@@ -1,3 +1,6 @@
+.pagetop{
+    
+}
 .boxstyle {
     font-family:sans-serif;
     font-size: 14px;
@@ -7,4 +10,22 @@
     box-shadow: 0 0 10px rgb(106, 162, 215);
     border-radius : 6px;
     border-top: 15px rgb(139, 192, 241) solid;
+}
+.header{
+    background:  rgb(139, 192, 241);
+    border-radius: 20px;
+    padding-left: 25px;
+
+}
+.section{
+    
+    background: rgb(187, 187, 212);
+     border-radius: 20px;
+     
+}
+.rightpane{
+    border-right:15px;
+    border-radius: 6px;
+    border-left: 6px rgb(231, 120, 17) solid;
+    background-color: rgba(235, 202, 132, 0.962);
 }
