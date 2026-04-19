@@ -1,10 +1,10 @@
 .boxstyle {
-    font-family: fantasy;
-    font-size: 12px;
+    font-family:sans-serif;
+    font-size: 14px;
     padding: 14px;
     color:#ffffff;
-    background: rgb(rgb(93, 89, 95));
+    background: rgb(rgb(25, 25, 26));
     box-shadow: 0 0 10px rgba(rgb(106, 95, 95), rgb(141, 153, 141), rgb(100, 100, 126), alpha);
     border-radius : 6px;
-    border-top: 6px rgb(rgb(81, 119, 146));
+    border-top: 6px rgb(rgb(7, 141, 236));
 }
