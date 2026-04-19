@@ -3,8 +3,8 @@
     font-size: 12px;
     padding: 14px;
     color:#ffffff;
-    background: #444444;
-    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    background: rgb(rgb(93, 89, 95));
+    box-shadow: 0 0 10px rgba(rgb(106, 95, 95), rgb(141, 153, 141), rgb(100, 100, 126), alpha);
     border-radius : 6px;
-    border-top: 6px;
+    border-top: 6px rgb(rgb(81, 119, 146));
 }
