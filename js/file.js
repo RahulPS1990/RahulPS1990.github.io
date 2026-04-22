@@ -19,7 +19,7 @@ fetch('./count.xml')
     document.getElementById("output").textContent =
       node ? node.textContent : "NOT FOUND";
   })
-  .catch(err => {
-    console.error(err);
-    document.getElementById("output").textContent = "ERROR";
-  });
+.catch(err => {
+  console.error("FULL ERROR:", err);
+  document.getElementById("output").textContent = err.message;
+});
