@@ -1,9 +1,19 @@
 fetch('count.xml')
-  .then(response => response.text())
-  .then(str => new DOMParser().parseFromString(str, "text/xml"))
-  .then(data => {
-    let count = data.getElementsByTagName("count")[0].textContent;
-    let output = count;
-    document.getElementById("output").innerHTML = output;
+  .then(response => {
+    console.log("Status:", response.status);
+    return response.text();
   })
-  .catch(err => console.error("Error loading XML:", err));
+  .then(str => {
+    console.log("XML content:", str);
+    return new DOMParser().parseFromString(str, "text/xml");
+  })
+  .then(xml => {
+    console.log("Parsed XML:", xml);
+
+    const node = xml.getElementsByTagName("count")[0];
+    console.log("Node:", node);
+
+    const count = node ? node.textContent : "NOT FOUND";
+    document.getElementById("output").textContent = count;
+  })
+  .catch(err => console.error("Error:", err));
