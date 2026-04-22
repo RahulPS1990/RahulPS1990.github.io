@@ -1,4 +1,4 @@
-fetch('./count.xml')
+fetch('js/count.xml')
   .then(res => {
     console.log("STATUS:", res.status);
     console.log("CONTENT-TYPE:", res.headers.get("content-type"));
