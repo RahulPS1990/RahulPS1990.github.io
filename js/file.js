@@ -1,4 +1,4 @@
-fetch('./js/count.xml')
+fetch('./count.xml')
   .then(res => res.text())
   .then(text => {
     console.log("RAW:", text);
