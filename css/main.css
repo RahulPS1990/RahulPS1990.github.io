@@ -8,6 +8,13 @@ border-bottom:.2px #191313 solid;
 }
 .dashboard{
     background-color: aliceblue;
+    border-radius: 20px;
+    border-bottom: 15px solid rgb(139, 192, 241);
+    border-top: 15px solid rgb(139, 192, 241);
+    border-left: 15px solid rgb(139, 192, 241);
+    border-right: 15px solid rgb(139, 192, 241);
+
+
 }
 
 .profilepic{
