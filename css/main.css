@@ -9,10 +9,10 @@ border-bottom:.2px #191313 solid;
 .dashboard{
     background-color: rgb(165, 208, 246);
     border-radius: 20px;
-    border-bottom: 15px solid rgb(139, 192, 241);
-    border-top: 15px solid rgb(139, 192, 241);
-    border-left: 15px solid rgb(139, 192, 241);
-    border-right: 15px solid rgb(139, 192, 241);
+    border-bottom: 15px rgb(139, 192, 241) solid;
+    border-top: 15px  rgb(139, 192, 241) solid;
+    border-left: 15px  rgb(139, 192, 241) solid;
+    border-right: 15px rgb(139, 192, 241) solid;
 
 
 }
