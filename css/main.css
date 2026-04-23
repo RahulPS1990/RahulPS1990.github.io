@@ -75,7 +75,7 @@ transform: translateX(-100%);
 }
 }
 
-scrollable-div {
+.scrollable-div {
 height: 400px;
 overflow-y: auto;
 overflow-x: hidden;
