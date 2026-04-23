@@ -74,3 +74,9 @@ to {
 transform: translateX(-100%);
 }
 }
+
+scrollable-div {
+height: 400px;
+overflow-y: auto;
+overflow-x: hidden;
+}
