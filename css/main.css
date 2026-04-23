@@ -9,10 +9,10 @@ border-bottom:.2px #191313 solid;
 .dashboard{
     background-color: rgb(165, 208, 246);
     border-radius: 20px;
-    border-bottom: 15px rgb(139, 192, 241) solid;
-    border-top: 15px  rgb(139, 192, 241) solid;
-    border-left: 15px  rgb(139, 192, 241) solid;
-    border-right: 15px rgb(139, 192, 241) solid;
+    border-bottom: 1.5px rgb(139, 192, 241) solid;
+    border-top: 1.5px  rgb(139, 192, 241) solid;
+    border-left: 1.5px  rgb(139, 192, 241) solid;
+    border-right: 1.5px rgb(139, 192, 241) solid;
 
 
 }
@@ -56,4 +56,21 @@ background-position: center;
     border-radius: 6px;
     border-left: 6px rgb(231, 120, 17) solid;
     background-color: rgba(235, 202, 132, 0.962);
+}
+
+.marquee1 {
+width: 100%;
+overflow: hidden;
+white-space: nowrap;
+box-sizing: border-box;
+animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+from {
+transform: translateX(100%);
+}
+to {
+transform: translateX(-100%);
+}
 }
