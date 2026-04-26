@@ -78,3 +78,103 @@ overflow-x: hidden;
 padding: 10px;
 
 }
+
+
+
+/* Navigation bar */
+.navigation {
+  font-size: 14px ;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:  rgb(139, 192, 241);
+  padding-left: 10px ;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin: 0px;
+  
+}
+
+/* Menu layout */
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+/* Main menu items */
+.menu > li {
+  position: relative;
+}
+
+.menu > li > a {
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 40px;
+  color: rgb(46, 2, 238);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.menu > li > a:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+/* Underline animation */
+.menu > li > a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: 0.3s;
+  margin-top: 5px;
+}
+
+.menu > li > a:hover::after {
+  width:20px;
+}
+
+/* Dropdown */
+.menu-item {
+  position: absolute;
+  left: 0;
+  background: white;
+  min-width: 50px;
+  border-radius: 6px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+  /* Smooth hidden state */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: 0.3s;
+}
+
+/* Show dropdown */
+.menu li:hover .menu-item {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Dropdown links */
+.menu-item li {
+  border-bottom: 1px solid #eee;
+}
+
+.menu-item li:last-child {
+  border-bottom: none;
+}
+
+.menu-item a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+/* Hover effect inside dropdown */
+.menu-item a:hover {
+  background: #f4f4f4;
+}
